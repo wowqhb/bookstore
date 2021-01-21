@@ -1,0 +1,31 @@
+syntax = "v1";
+
+type (
+	AddReq {
+		Book  string `form:"book"`
+		Price int64  `form:"price"`
+	}
+
+	AddResp {
+		Ok bool `json:"ok"`
+	}
+)
+
+type (
+	CheckReq {
+		Book string `form:"book"`
+	}
+
+	CheckResp {
+		Found bool  `json:"found"`
+		Price int64 `json:"price"`
+	}
+)
+
+service bookstore-api {
+	@handler AddHandler
+	post /add (AddReq) returns (AddResp)
+	
+	@handler CheckHandler
+	get /check (CheckReq) returns (CheckResp)
+}
