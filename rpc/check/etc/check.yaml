@@ -8,3 +8,11 @@ DataSource: root:root@tcp(localhost:3306)/gozero
 Table: book
 Cache:
   - Host: localhost:6379
+Log:
+  ServiceName: check.rpc
+  Mode: file
+  Path: ./logs/check.rpc
+  Level: info
+  Compress: true
+  KeepDays: 30
+  StackCooldownMillis: 100
