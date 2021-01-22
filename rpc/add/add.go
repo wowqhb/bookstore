@@ -7,10 +7,10 @@ import (
 	"flag"
 	"fmt"
 
-	"bookstore/rpc/add/add"
-	"bookstore/rpc/add/internal/config"
-	"bookstore/rpc/add/internal/server"
-	"bookstore/rpc/add/internal/svc"
+	"github.com/wowqhb/bookstore/rpc/add/add"
+	"github.com/wowqhb/bookstore/rpc/add/internal/config"
+	"github.com/wowqhb/bookstore/rpc/add/internal/server"
+	"github.com/wowqhb/bookstore/rpc/add/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/zrpc"

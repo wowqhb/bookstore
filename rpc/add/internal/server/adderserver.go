@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"bookstore/rpc/add/add"
-	"bookstore/rpc/add/internal/logic"
-	"bookstore/rpc/add/internal/svc"
+	"github.com/wowqhb/bookstore/rpc/add/add"
+	"github.com/wowqhb/bookstore/rpc/add/internal/logic"
+	"github.com/wowqhb/bookstore/rpc/add/internal/svc"
 )
 
 type AdderServer struct {

@@ -1,11 +1,11 @@
 package logic
 
 import (
-	"bookstore/rpc/model"
 	"context"
+	"github.com/wowqhb/bookstore/rpc/model"
 
-	"bookstore/rpc/add/add"
-	"bookstore/rpc/add/internal/svc"
+	"github.com/wowqhb/bookstore/rpc/add/add"
+	"github.com/wowqhb/bookstore/rpc/add/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

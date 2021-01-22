@@ -1,10 +1,10 @@
 package logic
 
 import (
-	"bookstore/rpc/check/check"
-	"bookstore/rpc/check/internal/svc"
 	"context"
 	"github.com/tal-tech/go-zero/core/timex"
+	"github.com/wowqhb/bookstore/rpc/check/check"
+	"github.com/wowqhb/bookstore/rpc/check/internal/svc"
 	"time"
 
 	"github.com/tal-tech/go-zero/core/logx"

@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"bookstore/api/internal/logic"
-	"bookstore/api/internal/svc"
-	"bookstore/api/internal/types"
+	"github.com/wowqhb/bookstore/api/internal/logic"
+	"github.com/wowqhb/bookstore/api/internal/svc"
+	"github.com/wowqhb/bookstore/api/internal/types"
 
 	"github.com/tal-tech/go-zero/rest/httpx"
 )

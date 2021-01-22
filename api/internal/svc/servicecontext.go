@@ -1,10 +1,10 @@
 package svc
 
 import (
-	"bookstore/api/internal/config"
-	"bookstore/rpc/add/adder"
-	"bookstore/rpc/check/checker"
 	"github.com/tal-tech/go-zero/zrpc"
+	"github.com/wowqhb/bookstore/api/internal/config"
+	"github.com/wowqhb/bookstore/rpc/add/adder"
+	"github.com/wowqhb/bookstore/rpc/check/checker"
 )
 
 type ServiceContext struct {

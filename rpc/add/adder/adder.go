@@ -8,7 +8,7 @@ package adder
 import (
 	"context"
 
-	"bookstore/rpc/add/add"
+	"github.com/wowqhb/bookstore/rpc/add/add"
 
 	"github.com/tal-tech/go-zero/zrpc"
 )

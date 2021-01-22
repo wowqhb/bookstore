@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"bookstore/rpc/check/check"
-	"bookstore/rpc/check/internal/logic"
-	"bookstore/rpc/check/internal/svc"
+	"github.com/wowqhb/bookstore/rpc/check/check"
+	"github.com/wowqhb/bookstore/rpc/check/internal/logic"
+	"github.com/wowqhb/bookstore/rpc/check/internal/svc"
 )
 
 type CheckerServer struct {

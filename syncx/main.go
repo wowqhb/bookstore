@@ -4,11 +4,14 @@ import (
 	"fmt"
 	"github.com/tal-tech/go-zero/core/stringx"
 	"github.com/tal-tech/go-zero/core/syncx"
+	"github.com/wowqhb/goframe_demo/dao"
 	"sync"
 	"time"
 )
 
 func main() {
+	book := dao.Book
+	fmt.Printf("%v\n", book)
 	const round = 5
 	var wg sync.WaitGroup
 	barrier := syncx.NewSharedCalls()

@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"bookstore/api/internal/config"
-	"bookstore/api/internal/handler"
-	"bookstore/api/internal/svc"
+	"github.com/wowqhb/bookstore/api/internal/config"
+	"github.com/wowqhb/bookstore/api/internal/handler"
+	"github.com/wowqhb/bookstore/api/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/rest"

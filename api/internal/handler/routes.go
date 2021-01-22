@@ -4,7 +4,7 @@ package handler
 import (
 	"net/http"
 
-	"bookstore/api/internal/svc"
+	"github.com/wowqhb/bookstore/api/internal/svc"
 
 	"github.com/tal-tech/go-zero/rest"
 )
